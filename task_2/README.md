@@ -10,7 +10,7 @@ Project is for now run locally without Docker. You must have Python 3.11 install
 
 ## Usage
 
-Twoo scripts located in `car_scraper/cli` directory.
+Two scripts located in `car_scraper/cli` directory. You must be in `task_2` directory to run it using example commands.
 
 ### Check.py
 Uses `GreatExpectations` to perform some data checks. Unfortunately I didn't manage to integrate motors check into Expecation report. The library is quite confusing, it needs more research.
@@ -24,6 +24,12 @@ Downloads cars from SAuto. It saves data to local JSONL file. It's prepared to s
 
 While downloading, it performs some basic checking of the input data - uses Pydantic model in `car_scraper/models.py`. Also `cars_provider.py` has `_validate_car_result` method. I noticed some cases when information about `gearbox_type` is missing - in that case the car is skipped. 
 
-Run like this: `poetry run python -m car_scraper.cli.scrape --manufacturer <manufacturer> --dir_path <absolute path to directory where file will be saved> --search_until <datetime how far in history to go>`
+Run like this: 
+```
+poetry run python -m car_scraper.cli.scrape --manufacturer <manufacturer> --dir_path <absolute path to directory where file will be saved> --search_until <datetime how far in history to go>
+```
 
-Example: `poetry run python -m car_scraper.cli.scrape --manufacturer skoda --dir_path ~/task_2/data --search_until 2023-08-13T11:19:16`
+Example: 
+```
+poetry run python -m car_scraper.cli.scrape --manufacturer skoda --dir_path ~/task_2/data --search_until 2023-08-13T11:19:16
+```

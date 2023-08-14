@@ -42,7 +42,7 @@ def check_car_engine(
         return False
     motor = motor["models"][model]
     if fuel not in motor:
-        # print("missing fuel name: ", fuel_name)
+        # print("missing fuel name: ", fuel)
         return False
     motor = motor[fuel]
     if engine_power < motor["lowest_kw"] or engine_power > motor["highest_kw"]:

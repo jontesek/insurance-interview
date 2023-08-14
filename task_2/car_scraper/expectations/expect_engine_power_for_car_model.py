@@ -41,7 +41,7 @@ class MulticolumnValuesEnginePower(MulticolumnMapMetricProvider):
     # This method implements the core logic for the PandasExecutionEngine
     @multicolumn_condition_partial(engine=PandasExecutionEngine)
     def _pandas(cls, column_list, motors_config, **kwargs):
-        return column_list.apply(
+        res = column_list.apply(
             axis=1,
             func=lambda car: check_car_engine(
                 motors_config=motors_config,
@@ -51,6 +51,7 @@ class MulticolumnValuesEnginePower(MulticolumnMapMetricProvider):
                 engine_power=car["engine_power"],
             ),
         )
+        return res
 
     # This method defines the business logic for evaluating your metric when using a SqlAlchemyExecutionEngine
     # @multicolumn_condition_partial(engine=SqlAlchemyExecutionEngine)
