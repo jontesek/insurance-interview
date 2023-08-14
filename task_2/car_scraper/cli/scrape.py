@@ -3,9 +3,8 @@ import argparse
 import datetime
 import os
 
-from ..service import Service
 from ..models import DATE_FORMAT, DATETIME_FORMAT
-
+from ..service import Service
 
 DEFAULT_SEARCH_HOURS = 24
 
@@ -19,7 +18,9 @@ def setup_service() -> Service:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--dir_path", help="Save data to file in this directory (use absolute path)", type=str
+        "--dir_path",
+        help="Save data to file in this directory (use absolute path)",
+        type=str,
     )
     parser.add_argument("--file_name", help="Optional file name", type=str)
     parser.add_argument("--db_conn", help="Save data to this database", type=str)
@@ -37,7 +38,7 @@ def main():
     # Check arguments
     if not args.manufacturer:
         exit("You must provide manufacturer.")
-    
+
     if not args.dir_path and not args.db_conn:
         exit("You must provider either dir_path or db_connn.")
 
@@ -53,8 +54,12 @@ def main():
             except ValueError:
                 exit("search_until must be in format %Y-%m-%d or %Y-%m-%dT%H:%M:%S")
     else:
-        search_until = datetime.datetime.now() - datetime.timedelta(hours=DEFAULT_SEARCH_HOURS)
-        print(f"You didn't provide default search_until settings, using default: {str(search_until)}")
+        search_until = datetime.datetime.now() - datetime.timedelta(
+            hours=DEFAULT_SEARCH_HOURS
+        )
+        print(
+            f"You didn't provide default search_until settings, using default: {str(search_until)}"
+        )
 
     # Run scraper
     service = setup_service()

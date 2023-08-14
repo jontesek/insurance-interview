@@ -3,9 +3,9 @@ import os
 
 from request_session import RequestSession
 
-from .logs import get_logger
 from .cars_provider import CarsProvider
-from .cars_saver import FileSaver, DbSaver
+from .cars_saver import DbSaver, FileSaver
+from .logs import get_logger
 
 
 class Service:
@@ -22,9 +22,15 @@ class Service:
         return CarsProvider(self._http_client, self._logger)
 
     def save_cars_to_file(
-        self, manufacturer: str, search_until_datetime: datetime, dir_path: str, file_name: str = None
+        self,
+        manufacturer: str,
+        search_until_datetime: datetime,
+        dir_path: str,
+        file_name: str = None,
     ) -> None:
-        file_name = file_name or f"cars_{manufacturer}_{str(search_until_datetime)}.jsonl"
+        file_name = (
+            file_name or f"cars_{manufacturer}_{str(search_until_datetime)}.jsonl"
+        )
         file_path = os.path.join(dir_path, file_name)
         self._logger.info("save_cars_to_file.start", file_path=file_path)
         saver = FileSaver(self._logger, file_path)

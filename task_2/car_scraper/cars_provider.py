@@ -1,15 +1,14 @@
 import datetime
-import time
 import pathlib
+import time
 
 import structlog
 from request_session import RequestSession
 
+from .cars_saver import CarsSaver, FileSaver
+from .errors import SearchCarsApiError, SearchUntilDatetimeEnd, TooHighOffsetError
 from .logs import get_logger
-from .models import Car, DATE_FORMAT, DATETIME_FORMAT
-from .errors import TooHighOffsetError, SearchCarsApiError, SearchUntilDatetimeEnd
-from .cars_saver import FileSaver, CarsSaver
-
+from .models import DATE_FORMAT, DATETIME_FORMAT, Car
 
 SEARCH_LIMIT = 20
 SEARCH_URL = "https://www.sauto.cz/api/v1/items/search?limit={limit}&offset={offset}&manufacturer_model_seo={manufacturer}&condition_seo=nove,ojete,predvadeci&category_id=838&operating_lease=false&timestamp_to={timestamp_to}"
@@ -18,22 +17,51 @@ WAIT_TIME = 1
 
 
 class CarsProvider:
-
-    def __init__(self, http_client: RequestSession, logger: structlog.stdlib.BoundLogger) -> None:
+    def __init__(
+        self, http_client: RequestSession, logger: structlog.stdlib.BoundLogger
+    ) -> None:
         self._http_client = http_client
         self.log = logger.bind(logger_name="cars_provider")
 
-    def save_all_cars(self, manufacturer: str, search_until_datetime: datetime.datetime, cars_saver: CarsSaver):
-        self.log = self.log.bind(manufacturer=manufacturer, search_until_datetime=str(search_until_datetime))
+    def save_all_cars(
+        self,
+        manufacturer: str,
+        search_until_datetime: datetime.datetime,
+        cars_saver: CarsSaver,
+    ):
+        self.log = self.log.bind(
+            manufacturer=manufacturer, search_until_datetime=str(search_until_datetime)
+        )
         self.log.info("save_all_cars.start")
-        _start_ts = int(time.time()) 
-        search_result = self.search_cars_by_offset(limit=SEARCH_LIMIT, offset=0, manufacturer=manufacturer, timestamp_to=_start_ts, search_until_datetime=search_until_datetime)
-        self.log.info("save_all_cars.first_searc_done", total=search_result["total"], new_offset=search_result["new_offset"])
+        _start_ts = int(time.time())
+        search_result = self.search_cars_by_offset(
+            limit=SEARCH_LIMIT,
+            offset=0,
+            manufacturer=manufacturer,
+            timestamp_to=_start_ts,
+            search_until_datetime=search_until_datetime,
+        )
+        self.log.info(
+            "save_all_cars.first_searc_done",
+            total=search_result["total"],
+            new_offset=search_result["new_offset"],
+        )
         search_count = int(search_result["total"] / SEARCH_LIMIT) + 1
-        for i in range(1, search_count+1):
+        for i in range(1, search_count + 1):
             try:
-                self.log.info("save_all_cars.next_search", search_number=i, total=search_result["total"], offset=search_result["new_offset"])
-                search_result = self.search_cars_by_offset(limit=SEARCH_LIMIT, offset=search_result["new_offset"], manufacturer=manufacturer, timestamp_to=_start_ts, search_until_datetime=search_until_datetime)   
+                self.log.info(
+                    "save_all_cars.next_search",
+                    search_number=i,
+                    total=search_result["total"],
+                    offset=search_result["new_offset"],
+                )
+                search_result = self.search_cars_by_offset(
+                    limit=SEARCH_LIMIT,
+                    offset=search_result["new_offset"],
+                    manufacturer=manufacturer,
+                    timestamp_to=_start_ts,
+                    search_until_datetime=search_until_datetime,
+                )
                 cars_saver.save_cars(search_result["cars"])
                 time.sleep(WAIT_TIME)
             except (TooHighOffsetError, SearchUntilDatetimeEnd) as e:
@@ -41,13 +69,25 @@ class CarsProvider:
                 break
         cars_saver.on_end()
 
-    def search_cars_by_offset(self, limit: int, offset: int, manufacturer: str, timestamp_to: int, search_until_datetime: datetime.datetime) -> dict:
-        url = SEARCH_URL.format(limit=limit, offset=offset, manufacturer=manufacturer, timestamp_to=timestamp_to)
+    def search_cars_by_offset(
+        self,
+        limit: int,
+        offset: int,
+        manufacturer: str,
+        timestamp_to: int,
+        search_until_datetime: datetime.datetime,
+    ) -> dict:
+        url = SEARCH_URL.format(
+            limit=limit,
+            offset=offset,
+            manufacturer=manufacturer,
+            timestamp_to=timestamp_to,
+        )
         response = self._http_client.get(url)
         response = response.json()
         # Check response
         if (status_code := response["status_code"]) != 200:
-            if status_code == 422:  
+            if status_code == 422:
                 raise TooHighOffset
             raise SearchCarsApiError(response["status_message"])
         # Process results
@@ -55,9 +95,16 @@ class CarsProvider:
         for item in response["results"]:
             try:
                 car = self.get_car(item["id"])
-                self.log.info("search_cars_by_offset.got_car", car_id=item["id"], edit_date=str(car.edit_date))
+                self.log.info(
+                    "search_cars_by_offset.got_car",
+                    car_id=item["id"],
+                    edit_date=str(car.edit_date),
+                )
                 if car.edit_date <= search_until_datetime:
-                    self.log.warning("search_cars_by_offset.end_by_date",search_until_datetime=search_until_datetime)
+                    self.log.warning(
+                        "search_cars_by_offset.end_by_date",
+                        search_until_datetime=search_until_datetime,
+                    )
                     raise SearchUntilDatetimeEnd
                 cars.append(car)
             except ValueError:
@@ -99,7 +146,7 @@ class CarsProvider:
                 raise ValueError(f"Missing field: {field}")
 
         return result
-    
+
     @staticmethod
     def _create_car_obj(result: dict) -> Car:
         # Handle optional nested parameters
@@ -110,8 +157,16 @@ class CarsProvider:
         # Handle dates
         create_date = datetime.datetime.strptime(result["create_date"], DATETIME_FORMAT)
         edit_date = datetime.datetime.strptime(result["edit_date"], DATETIME_FORMAT)
-        in_operation_date = datetime.datetime.strptime(result["in_operation_date"], DATE_FORMAT) if result.get("in_operation_date") else None
-        manufacturing_date = datetime.datetime.strptime(result["manufacturing_date"], DATE_FORMAT) if result.get("manufacturing_date") else None
+        in_operation_date = (
+            datetime.datetime.strptime(result["in_operation_date"], DATE_FORMAT)
+            if result.get("in_operation_date")
+            else None
+        )
+        manufacturing_date = (
+            datetime.datetime.strptime(result["manufacturing_date"], DATE_FORMAT)
+            if result.get("manufacturing_date")
+            else None
+        )
         # Create object
         return Car(
             id=result["id"],
@@ -121,7 +176,7 @@ class CarsProvider:
             air_conditioning_value=air_cond["value"] if air_cond else None,
             capacity=result.get("capacity"),
             category_id=result["category"]["id"],
-            category_name=result["category"]["name"], 
+            category_name=result["category"]["name"],
             color_name=color["name"] if color else None,
             color_value=color["value"] if color else None,
             condition_name=result["condition_cb"]["name"],
@@ -138,7 +193,9 @@ class CarsProvider:
             fuel_value=result["fuel_cb"]["value"],
             gearbox_name=result["gearbox_cb"]["name"],
             gearbox_value=result["gearbox_cb"]["value"],
-            gearbox_levels=result["gearbox_levels_cb"]["value"] if result.get("gearbox_levels_cb") else None,
+            gearbox_levels=result["gearbox_levels_cb"]["value"]
+            if result.get("gearbox_levels_cb")
+            else None,
             in_operation_date=in_operation_date,
             locality_district_name=result["locality"]["district"],
             manufacturer_name=result["manufacturer_cb"]["name"],
@@ -186,5 +243,7 @@ if __name__ == "__main__":
     # saving
     cars_file_path = pathlib.Path(__file__).resolve().parent / "../data/cars.jsonl"
     saver = FileSaver(logger, cars_file_path)
-    search_until = datetime.datetime(2023,8,13,12,4,0)
-    provider.save_all_cars(manufacturer="skoda", search_until_datetime=search_until, cars_saver=saver)
+    search_until = datetime.datetime(2023, 8, 13, 12, 4, 0)
+    provider.save_all_cars(
+        manufacturer="skoda", search_until_datetime=search_until, cars_saver=saver
+    )

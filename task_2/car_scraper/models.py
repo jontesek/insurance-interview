@@ -2,8 +2,7 @@ import datetime
 from enum import IntEnum
 from typing import Optional
 
-from pydantic import BaseModel, conint, NonNegativeInt, PositiveInt
-
+from pydantic import BaseModel, NonNegativeInt, PositiveInt, conint
 
 DATETIME_FORMAT = "%Y-%m-%dT%H:%M:%S"
 DATE_FORMAT = "%Y-%m-%d"
@@ -50,4 +49,3 @@ class Car(BaseModel):
     tachometer: conint(ge=0, le=1_000_000)
     vehicle_body_name: Optional[str]
     vehicle_body_value: Optional[NonNegativeInt]
-    

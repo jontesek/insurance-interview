@@ -2,8 +2,8 @@ from abc import ABC, abstractmethod
 
 import structlog
 
-from .models import Car
 from .errors import SearchUntilDatetimeEnd
+from .models import Car
 
 
 class CarsSaver(ABC):
@@ -38,6 +38,7 @@ class FileSaver(CarsSaver):
 
 class DbSaver(CarsSaver):
     """Does not work - DB connection not implemented/tested"""
+
     INSERT_SQL = "INSERT INTO cars VALUES(%s)"
 
     def __init__(

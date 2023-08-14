@@ -16,7 +16,9 @@ def process_file(file_path: str):
     # Create a custom expectation about engine power
     motors_config = load_motors()
     column_list = ["manufacturer_name", "fuel_name", "car_model_name", "engine_power"]
-    validator.expect_engine_power_for_car_model(column_list=column_list, motors_config=motors_config)
+    validator.expect_engine_power_for_car_model(
+        column_list=column_list, motors_config=motors_config
+    )
 
     # Save expectations
     validator.save_expectation_suite()

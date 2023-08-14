@@ -2,7 +2,6 @@ import structlog
 
 
 def configure_structlog(is_debug: bool):
-
     shared_processors = [
         # Processors that have nothing to do with output,
         # e.g., add timestamps or log level names.

@@ -1,6 +1,6 @@
-from typing import Optional
-import pathlib
 import json
+import pathlib
+from typing import Optional
 
 import yaml
 

@@ -12,7 +12,7 @@ def main():
 
     if not os.path.exists(args.file_path):
         exit("file_path doesn't exist")
-    
+
     process_file(args.file_path)
 
 
