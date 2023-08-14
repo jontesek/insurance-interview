@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "car-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Jonas Petrovsky <jontesek@gmail.com>"]
+readme = "README.md"
+packages = [{include = "car_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+structlog = "^23.1.0"
+request-session = "^0.15.0"
+PyYAML = "^6.0.1"
+great-expectations = "^0.17.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3

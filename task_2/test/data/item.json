@@ -1,0 +1,692 @@
+{
+    "result": {
+        "additional_model_name": "RS 2.0TSi 180kw DGS",
+        "aircondition_cb": {
+            "name": "Automatick\u00e1",
+            "value": 3
+        },
+        "approval_admin": "unchecked",
+        "capacity": 5,
+        "category": {
+            "id": 838,
+            "name": "Osobn\u00ed",
+            "seo_name": "osobni"
+        },
+        "color_cb": {
+            "name": "\u010cerven\u00e1",
+            "value": 4
+        },
+        "condition_cb": {
+            "name": "Ojet\u00e9",
+            "value": 2
+        },
+        "country_of_origin_cb": {
+            "name": "\u010cesk\u00e1 republika",
+            "value": 1
+        },
+        "create_date": "2023-08-11T14:55:31",
+        "custom_id": "19BA001056",
+        "deactivation_reason": null,
+        "deal_type": "sale",
+        "description": "P\u0159\u00edprava pro ta\u017en\u00e9 za\u0159\u00edzen\u00ed\nOdpo\u010det DPH, Po 1. majiteli, D\u00e1lni\u010dn\u00ed zn\u00e1mka platn\u00e1 do 17. 1. 2024\nK prodejn\u00ed cen\u011b se p\u0159ipo\u010d\u00edt\u00e1v\u00e1 poplatek 2000,- za registraci,\nAndroid Auto, Apple Car Play, Deaktivace airbagu spolujezdce, Elektrochromatick\u00e9 vnit\u0159n\u00ed zp\u011btn\u00e9 zrc\u00e1tko, Nastaviteln\u00e1 sedadla, ISOFIX, R\u00e1dio",
+        "dont_show_phone": false,
+        "doors": 5,
+        "edit_date": "2023-08-11T14:55:44",
+        "engine_power": 180,
+        "engine_volume": 1968,
+        "equipment_cb": [
+            {
+                "equipment_category": "safety",
+                "name": "ABS",
+                "value": 8
+            },
+            {
+                "equipment_category": "assist",
+                "name": "Asistent p\u0159i j\u00edzd\u011b ze svahu",
+                "value": 222
+            },
+            {
+                "equipment_category": "assist",
+                "name": "Asistent rozjezdu do kopce",
+                "value": 213
+            },
+            {
+                "equipment_category": "systems",
+                "name": "Autor\u00e1dio",
+                "value": 28
+            },
+            {
+                "equipment_category": "systems",
+                "name": "Bezdr\u00e1tov\u00e1 nab\u00edje\u010dka mobiln\u00edch telefon\u016f (Qi)",
+                "value": 266
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Bezkl\u00ed\u010dkov\u00e9 ovl\u00e1d\u00e1n\u00ed",
+                "value": 218
+            },
+            {
+                "equipment_category": "systems",
+                "name": "Bluetooth",
+                "value": 244
+            },
+            {
+                "equipment_category": "security",
+                "name": "Centr\u00e1ln\u00ed zamyk\u00e1n\u00ed",
+                "value": 7
+            },
+            {
+                "equipment_category": "security",
+                "name": "D\u00e1lkov\u00e9 centr\u00e1ln\u00ed zamyk\u00e1n\u00ed",
+                "value": 24
+            },
+            {
+                "equipment_category": "seats",
+                "name": "D\u011blen\u00e1 zadn\u00ed sedadla",
+                "value": 221
+            },
+            {
+                "equipment_category": "interior",
+                "name": "El. ovl\u00e1d\u00e1n\u00ed oken",
+                "value": 51
+            },
+            {
+                "equipment_category": "interior",
+                "name": "El. ovl\u00e1d\u00e1n\u00ed zrc\u00e1tek",
+                "value": 13
+            },
+            {
+                "equipment_category": "interior",
+                "name": "El. ovl\u00e1dan\u00fd kufr",
+                "value": 246
+            },
+            {
+                "equipment_category": "interior",
+                "name": "El. sklopn\u00e1 zrc\u00e1tka",
+                "value": 245
+            },
+            {
+                "equipment_category": "safety",
+                "name": "Elektronick\u00e1 uz\u00e1v\u011brka diferenci\u00e1lu (EDS)",
+                "value": 106
+            },
+            {
+                "equipment_category": "safety",
+                "name": "ESP",
+                "value": 15
+            },
+            {
+                "equipment_category": "safety",
+                "name": "Hl\u00edd\u00e1n\u00ed mrtv\u00e9ho \u00fahlu",
+                "value": 250
+            },
+            {
+                "equipment_category": "security",
+                "name": "Imobiliz\u00e9r",
+                "value": 4
+            },
+            {
+                "equipment_category": "seats",
+                "name": "Isofix",
+                "value": 215
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Klimatizovan\u00e1 p\u0159ihr\u00e1dka",
+                "value": 223
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Ko\u017een\u00e9 \u010daloun\u011bn\u00ed",
+                "value": 3
+            },
+            {
+                "equipment_category": "lights",
+                "name": "LED denn\u00ed sv\u00edcen\u00ed",
+                "value": 228
+            },
+            {
+                "equipment_category": "lights",
+                "name": "LED sv\u011btlomety plnohodnotn\u00e9",
+                "value": 238
+            },
+            {
+                "equipment_category": "exterior",
+                "name": "Lit\u00e1 kola",
+                "value": 16
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Mal\u00fd ko\u017een\u00fd paket",
+                "value": 258
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Multifunk\u010dn\u00ed volant",
+                "value": 27
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Nastaviteln\u00fd volant",
+                "value": 37
+            },
+            {
+                "equipment_category": "lights",
+                "name": "Nat\u00e1\u010dec\u00ed sv\u011btlomety",
+                "value": 247
+            },
+            {
+                "equipment_category": "safety",
+                "name": "Nouzov\u00e9 br\u017ed\u011bn\u00ed",
+                "value": 252
+            },
+            {
+                "equipment_category": "lights",
+                "name": "Ost\u0159ikova\u010de sv\u011btlomet\u016f",
+                "value": 75
+            },
+            {
+                "equipment_category": "systems",
+                "name": "Palubn\u00ed po\u010d\u00edta\u010d",
+                "value": 30
+            },
+            {
+                "equipment_category": "assist",
+                "name": "Parkovac\u00ed asistent",
+                "value": 31
+            },
+            {
+                "equipment_category": "assist",
+                "name": "Parkovac\u00ed kamera",
+                "value": 231
+            },
+            {
+                "equipment_category": "assist",
+                "name": "Parkovac\u00ed senzory",
+                "value": 214
+            },
+            {
+                "equipment_category": "exterior",
+                "name": "Plnohodnotn\u00e9 rezervn\u00ed kolo",
+                "value": 298
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Posilova\u010d \u0159\u00edzen\u00ed",
+                "value": 32
+            },
+            {
+                "equipment_category": "safety",
+                "name": "Protiprokluzov\u00fd syst\u00e9m kol (ASR)",
+                "value": 142
+            },
+            {
+                "equipment_category": "drive",
+                "name": "Regulace tuhosti podvozku",
+                "value": 154
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Roletky na zadn\u00ed okna",
+                "value": 267
+            },
+            {
+                "equipment_category": "systems",
+                "name": "Satelitn\u00ed navigace",
+                "value": 103
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Senzor opot\u0159eben\u00ed brzd. desti\u010dek",
+                "value": 249
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Senzor st\u011bra\u010d\u016f",
+                "value": 108
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Senzor tlaku v pneumatik\u00e1ch",
+                "value": 257
+            },
+            {
+                "equipment_category": "safety",
+                "name": "Sledov\u00e1n\u00ed j\u00edzdn\u00edho pruhu",
+                "value": 251
+            },
+            {
+                "equipment_category": "safety",
+                "name": "Sledov\u00e1n\u00ed \u00fanavy \u0159idi\u010de",
+                "value": 255
+            },
+            {
+                "equipment_category": "drive",
+                "name": "Sportovn\u00ed podvozek",
+                "value": 119
+            },
+            {
+                "equipment_category": "seats",
+                "name": "Sportovn\u00ed sedadla",
+                "value": 92
+            },
+            {
+                "equipment_category": "drive",
+                "name": "Start/Stop syst\u00e9m",
+                "value": 212
+            },
+            {
+                "equipment_category": "exterior",
+                "name": "St\u0159e\u0161n\u00ed nosi\u010d",
+                "value": 38
+            },
+            {
+                "equipment_category": "assist",
+                "name": "Tempomat",
+                "value": 17
+            },
+            {
+                "equipment_category": "exterior",
+                "name": "T\u00f3novan\u00e1 skla",
+                "value": 39
+            },
+            {
+                "equipment_category": "safety",
+                "name": "Upozorn\u011bn\u00ed na p\u0159ij\u00ed\u017ed\u011bj\u00edc\u00ed vozidla p\u0159i couv\u00e1n\u00ed (RCTA)",
+                "value": 262
+            },
+            {
+                "equipment_category": "systems",
+                "name": "USB",
+                "value": 243
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Venkovn\u00ed teplom\u011br",
+                "value": 146
+            },
+            {
+                "equipment_category": "seats",
+                "name": "Vyh\u0159\u00edvan\u00e1 sedadla",
+                "value": 42
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Vyh\u0159\u00edvan\u00e1 zrc\u00e1tka",
+                "value": 40
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Vyh\u0159\u00edvan\u00e9 \u010deln\u00ed sklo",
+                "value": 41
+            },
+            {
+                "equipment_category": "interior",
+                "name": "Vyh\u0159\u00edvan\u00fd volant",
+                "value": 241
+            }
+        ],
+        "first_owner": true,
+        "fuel_cb": {
+            "name": "Benz\u00edn",
+            "seo_name": "benzin",
+            "value": 1
+        },
+        "gearbox_cb": {
+            "name": "Automatick\u00e1",
+            "value": 3
+        },
+        "gearbox_levels_cb": {
+            "name": "7 stup\u0148ov\u00e1",
+            "value": 7
+        },
+        "hide_vin": true,
+        "id": 195240508,
+        "images": [
+            {
+                "id": 973253332,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QN_E2/RdyYin.jpeg"
+            },
+            {
+                "id": 973253344,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QN_E2/gxMYio.jpeg"
+            },
+            {
+                "id": 973253353,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/lfzjNP.jpeg"
+            },
+            {
+                "id": 973253362,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/uk3jNQ.jpeg"
+            },
+            {
+                "id": 973253368,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/tw7Bt47.jpeg"
+            },
+            {
+                "id": 973253371,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/mTjBt2Z.jpeg"
+            },
+            {
+                "id": 973253377,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QL_E7/gWcf6g.jpeg"
+            },
+            {
+                "id": 973253380,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QM_E7/HZoBuA8.jpeg"
+            },
+            {
+                "id": 973253383,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QM_E7/rvBBuA9.jpeg"
+            },
+            {
+                "id": 973253389,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QO_E7/FWLBWPL.jpeg"
+            },
+            {
+                "id": 973253392,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/kJOjNR.jpeg"
+            },
+            {
+                "id": 973253395,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/ZvcBt48.jpeg"
+            },
+            {
+                "id": 973253398,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/5gtBt49.jpeg"
+            },
+            {
+                "id": 973253401,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/fe4jNS.jpeg"
+            },
+            {
+                "id": 973253407,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/KjTjNT.jpeg"
+            },
+            {
+                "id": 973253410,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/sDwjNU.jpeg"
+            },
+            {
+                "id": 973253416,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QI_EE/PlgBuAc.jpeg"
+            },
+            {
+                "id": 973253419,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QI_EE/WOdBuAd.jpeg"
+            },
+            {
+                "id": 973253422,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/qVjBt5A.jpeg"
+            },
+            {
+                "id": 973253428,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QM_E7/qH7BuBA.jpeg"
+            },
+            {
+                "id": 973253431,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/tk2Bt2a.jpeg"
+            },
+            {
+                "id": 973253434,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QI_EE/7KDBuAe.jpeg"
+            },
+            {
+                "id": 973253437,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QK_FE/UOx2pK.jpeg"
+            },
+            {
+                "id": 973253440,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QQ_E0/T4Ws06.jpeg"
+            },
+            {
+                "id": 973253443,
+                "image_kind": 0,
+                "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/fmyBt2b.jpeg"
+            }
+        ],
+        "in_operation_date": "2020-12-29",
+        "locality": {
+            "address": "",
+            "address_id": 0,
+            "citypart": "",
+            "country_id": 112,
+            "district": "Hradec Kr\u00e1lov\u00e9",
+            "district_id": 28,
+            "district_seo_name": "hradec-kralove",
+            "entity_id": 28,
+            "entity_type": "district",
+            "gps_lat": 50.22898210380405,
+            "gps_lon": 15.687238422013012,
+            "housenumber": "",
+            "municipality": "",
+            "municipality_id": 0,
+            "municipality_seo_name": "",
+            "quarter": "",
+            "quarter_id": 0,
+            "region": "Kr\u00e1lov\u00e9hradeck\u00fd kraj",
+            "region_id": 6,
+            "region_seo_name": "kralovehradecky-kraj",
+            "source": "regionserver",
+            "street": "",
+            "street_id": 0,
+            "streetnumber": "",
+            "ward": "",
+            "ward_id": 0,
+            "zip": ""
+        },
+        "manufacturer_cb": {
+            "name": "\u0160koda",
+            "seo_name": "skoda",
+            "value": 93
+        },
+        "manufacturing_date": "2020-01-01",
+        "mirroring_category_id": null,
+        "model_cb": {
+            "name": "Octavia",
+            "seo_name": "octavia",
+            "value": 705
+        },
+        "name": "\u0160koda Octavia, RS 2.0TSi 180kw DGS",
+        "old_id": null,
+        "other_localities": [],
+        "phone": "+420257107107",
+        "preferred_offer": false,
+        "premise": {
+            "description": "Zaji\u0161\u0165ujeme autorizovan\u00fd prodej a servis voz\u016f zna\u010dky Volkswagen, Audi, \u0160koda a Volkswagen u\u017eitkov\u00fdch voz\u016f. Zab\u00fdv\u00e1me se prodejem a v\u00fdkupem ojet\u00fdch voz\u016f pod zna\u010dkou \u0160koda Plus a Das Welt Auto a prodejem p\u0159edv\u00e1d\u011bc\u00edch voz\u016f. Poskytujeme financov\u00e1n\u00ed, poji\u0161t\u011bn\u00ed i prodej n\u00e1hradn\u00edch d\u00edl\u016f a p\u0159\u00edslu\u0161enstv\u00ed.",
+            "emails": [
+                {
+                    "default": true,
+                    "email": "piamarket@porsche.cz",
+                    "id": 7327172,
+                    "name": "Email"
+                }
+            ],
+            "external_id": 6009,
+            "home_delivery": true,
+            "id": 2592119,
+            "locality": {
+                "address": "1708/25b",
+                "address_id": 11712308,
+                "citypart": "Pra\u017esk\u00e9 P\u0159edm\u011bst\u00ed",
+                "country_id": 112,
+                "district": "Hradec Kr\u00e1lov\u00e9",
+                "district_id": 28,
+                "district_seo_name": "hradec-kralove",
+                "entity_id": 11712308,
+                "entity_type": "address",
+                "gps_lat": 50.21892094642071,
+                "gps_lon": 15.813213871496503,
+                "housenumber": "1708",
+                "municipality": "Hradec Kr\u00e1lov\u00e9",
+                "municipality_id": 2149,
+                "municipality_seo_name": "hradec-kralove",
+                "quarter": "",
+                "quarter_id": 0,
+                "region": "Kr\u00e1lov\u00e9hradeck\u00fd kraj",
+                "region_id": 6,
+                "region_seo_name": "kralovehradecky-kraj",
+                "source": "regionserver",
+                "street": "Na Okrouhl\u00edku",
+                "street_id": 89303,
+                "streetnumber": "25b",
+                "ward": "Pra\u017esk\u00e9 P\u0159edm\u011bst\u00ed",
+                "ward_id": 14485,
+                "zip": "500 02"
+            },
+            "logo": null,
+            "name": "Porsche Hradec Kr\u00e1lov\u00e9",
+            "old_id": 6009,
+            "opening_hours": {
+                "opening_time_additional_info": "",
+                "opening_time_description": "Provozn\u00ed hodiny",
+                "opening_time_holiday_info": "",
+                "opening_time_st": [
+                    {
+                        "amEnd": {
+                            "hour": 17,
+                            "minute": 0
+                        },
+                        "amStart": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "specification_id": "open"
+                    },
+                    {
+                        "amEnd": {
+                            "hour": 17,
+                            "minute": 0
+                        },
+                        "amStart": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "specification_id": "open"
+                    },
+                    {
+                        "amEnd": {
+                            "hour": 17,
+                            "minute": 0
+                        },
+                        "amStart": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "specification_id": "open"
+                    },
+                    {
+                        "amEnd": {
+                            "hour": 17,
+                            "minute": 0
+                        },
+                        "amStart": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "specification_id": "open"
+                    },
+                    {
+                        "amEnd": {
+                            "hour": 17,
+                            "minute": 0
+                        },
+                        "amStart": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "specification_id": "open"
+                    },
+                    {
+                        "specification_id": "closed"
+                    },
+                    {
+                        "specification_id": "closed"
+                    }
+                ],
+                "opening_time_visible": true
+            },
+            "phones": [
+                {
+                    "default": true,
+                    "id": 10571167,
+                    "name": "Telefon",
+                    "phone": "+420257107107"
+                }
+            ],
+            "retargeting_id": null,
+            "reviews": {
+                "count": 5,
+                "stars": 4.0
+            },
+            "seo_name": "porsche-hradec-kralove",
+            "social_networks": null,
+            "software_keys": [
+                {
+                    "id": 9
+                },
+                {
+                    "id": 71
+                },
+                {
+                    "id": 120
+                }
+            ],
+            "subject": {
+                "ico": 47124652,
+                "id": 2031980
+            },
+            "url_detail_firmy": "https://www.firmy.cz/detail/2592119-porsche-hradec-kralove-hradec-kralove-prazske-predmesti.html",
+            "use_advert_locality": false,
+            "web": "http://piamarket.cz/"
+        },
+        "price": 810000,
+        "price_is_vat_deductible": true,
+        "price_is_without_vat": false,
+        "price_original": 810000,
+        "price_without_vat": 669421,
+        "seo_name": "195240508-skoda-octavia-rs-20tsi-180kw-dgs",
+        "service_book": true,
+        "sorting_date": "2023-08-11T14:55:31",
+        "source": "import_source",
+        "status": "active",
+        "stk_date": "2024-12-01",
+        "tachometer": 47987,
+        "topped": false,
+        "user": null,
+        "valid_to": "2023-08-11T14:55:31",
+        "vehicle_body_cb": {
+            "name": "Hatchback",
+            "seo_name": "hatchback",
+            "value": 1
+        },
+        "videos": [],
+        "vin": "TMBAU0NX6MYXXXXXX"
+    },
+    "status_code": 200,
+    "status_message": "OK"
+}

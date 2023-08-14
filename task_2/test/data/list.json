@@ -1,0 +1,1809 @@
+{
+    "pagination": {
+      "limit": 20,
+      "offset": 20,
+      "total": 20904
+    },
+    "results": [
+      {
+        "additional_model_name": "1,4 MPI KLIMA, TA\u017dN\u00c9",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-08-11T14:41:39",
+        "custom_id": "38093005-EBM",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:41:45",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": true,
+        "id": 195239836,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QL_E7/Rhgf5b.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QK_FE/Hbv2oD.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QL_E7/HPtf5c.jpeg"
+          }
+        ],
+        "images_total_count": 18,
+        "in_operation_date": "2004-05-01",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "T\u0159eb\u00ed\u010d",
+          "district_id": 69,
+          "district_seo_name": "trebic",
+          "entity_id": 69,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Kraj Vyso\u010dina",
+          "region_id": 13,
+          "region_seo_name": "kraj-vysocina",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "model_cb": {
+          "name": "Fabia",
+          "seo_name": "fabia",
+          "value": 707
+        },
+        "name": "\u0160koda Fabia, 1,4 MPI KLIMA, TA\u017dN\u00c9",
+        "old_id": null,
+        "premise": {
+          "external_id": 8483,
+          "id": 12733272,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_D/6pOBagL.png",
+          "name": "AutoVojtik"
+        },
+        "price": 55000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:41:39",
+        "source": "import_source",
+        "tachometer": 158300,
+        "topped": false,
+        "user": null
+      },
+      {
+        "additional_model_name": "Style 1.5 TSI 110 kW",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-08-11T14:40:34",
+        "custom_id": "200542106",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:40:37",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Automatick\u00e1",
+          "seo_name": "automaticka",
+          "value": 3
+        },
+        "home_delivery": false,
+        "id": 195239779,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QN_E2/ZB0Yhe.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QI_EE/qvVBt9T.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/yXFBt4J.jpeg"
+          }
+        ],
+        "images_total_count": 3,
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "Nymburk",
+          "district_id": 55,
+          "district_seo_name": "nymburk",
+          "entity_id": 55,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "St\u0159edo\u010desk\u00fd kraj",
+          "region_id": 11,
+          "region_seo_name": "stredocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2021-01-01",
+        "model_cb": {
+          "name": "Scala",
+          "seo_name": "scala",
+          "value": 8155
+        },
+        "name": "\u0160koda Scala, Style 1.5 TSI 110 kW",
+        "old_id": null,
+        "premise": {
+          "external_id": 189,
+          "id": 429451,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_QI_v/xicLd.png",
+          "name": "Louda Auto+ ( 8 pobo\u010dek v 6 kraj\u00edch )"
+        },
+        "price": 519000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:40:34",
+        "source": "import_source",
+        "tachometer": 9592,
+        "topped": false,
+        "user": null
+      },
+      {
+        "additional_model_name": "\u010cR,DSG,110kW,Style Extra",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-08-11T14:38:59",
+        "custom_id": "16403AIN26219",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:39:12",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Automatick\u00e1",
+          "seo_name": "automaticka",
+          "value": 3
+        },
+        "home_delivery": false,
+        "id": 195239668,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QN_E2/YstYhU.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QQ_E0/CfUszi.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/fWSBt1O.jpeg"
+          }
+        ],
+        "images_total_count": 24,
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "Praha-z\u00e1pad",
+          "district_id": 57,
+          "district_seo_name": "praha-zapad",
+          "entity_id": 57,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "St\u0159edo\u010desk\u00fd kraj",
+          "region_id": 11,
+          "region_seo_name": "stredocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2019-03-01",
+        "model_cb": {
+          "name": "Octavia",
+          "seo_name": "octavia",
+          "value": 705
+        },
+        "name": "\u0160koda Octavia, \u010cR,DSG,110kW,Style Extra",
+        "old_id": null,
+        "premise": {
+          "external_id": 287,
+          "id": 13285966,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_gT_V/9pHCWj.png",
+          "name": "AUTO IN, s.r.o."
+        },
+        "price": 484000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:38:59",
+        "source": "import_source",
+        "tachometer": 70335,
+        "topped": false,
+        "user": null
+      },
+      {
+        "additional_model_name": "1,5 TSI 110kW Style Combi",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-08-11T14:31:35",
+        "custom_id": "Z230417",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:31:45",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 195239365,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QO_E7/pCcBWNv.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QI_EE/TGsBt83.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/QmKjMH.jpeg"
+          }
+        ],
+        "images_total_count": 9,
+        "in_operation_date": "2019-08-27",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2019-01-01",
+        "model_cb": {
+          "name": "Octavia",
+          "seo_name": "octavia",
+          "value": 705
+        },
+        "name": "\u0160koda Octavia, 1,5 TSI 110kW Style Combi",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 395000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:31:35",
+        "source": "import_source",
+        "tachometer": 109800,
+        "topped": false,
+        "user": null
+      },
+      {
+        "additional_model_name": "1,0 TSI 70kW Style Combi",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-08-11T14:31:08",
+        "custom_id": "Z230415",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:31:16",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 195239332,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/lJ1Bt03.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QI_EE/ae1Bt8z.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/7MLBt04.jpeg"
+          }
+        ],
+        "images_total_count": 9,
+        "in_operation_date": "2020-01-10",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2019-01-01",
+        "model_cb": {
+          "name": "Fabia",
+          "seo_name": "fabia",
+          "value": 707
+        },
+        "name": "\u0160koda Fabia, 1,0 TSI 70kW Style Combi",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 244999,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:31:08",
+        "source": "import_source",
+        "tachometer": 120000,
+        "topped": false,
+        "user": null
+      },
+      {
+        "additional_model_name": "1.0 TSI 81 kW Style Extra",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-08-11T14:29:27",
+        "custom_id": null,
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:39:12",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 195239251,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QI_EE/j5oBt82.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/8KkBt3i.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/jvyjMF.jpeg"
+          }
+        ],
+        "images_total_count": 30,
+        "in_operation_date": "2022-02-01",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "Rozd\u011blov",
+          "country_id": 112,
+          "district": "Kladno",
+          "district_id": 50,
+          "district_seo_name": "kladno",
+          "entity_id": 13826,
+          "entity_type": "ward",
+          "housenumber": "",
+          "municipality": "Kladno",
+          "municipality_id": 3661,
+          "municipality_seo_name": "kladno",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "St\u0159edo\u010desk\u00fd kraj",
+          "region_id": 11,
+          "region_seo_name": "stredocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "Rozd\u011blov",
+          "ward_id": 13826,
+          "zip": "272 04"
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2022-02-01",
+        "model_cb": {
+          "name": "Scala",
+          "seo_name": "scala",
+          "value": 8155
+        },
+        "name": "\u0160koda Scala, 1.0 TSI 81 kW Style Extra",
+        "old_id": null,
+        "premise": {
+          "external_id": 182,
+          "id": 2687125,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_QJ_F/HglPn.png",
+          "name": "AMOND, spol. s r.o. - \u0160KODA Plus / Das WeltAuto."
+        },
+        "price": 459990,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:30:49",
+        "source": "web_source",
+        "tachometer": 29166,
+        "topped": false,
+        "user": {
+          "id": 125784888
+        }
+      },
+      {
+        "additional_model_name": "1.2 TSI, Serv.kniha, Klima",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-08-01T16:13:49",
+        "custom_id": "0900411798",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:30:05",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": true,
+        "id": 194770267,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QM_E7/yOABnA0.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/NzSBm2u.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/3DgBm2v.jpeg"
+          }
+        ],
+        "images_total_count": 13,
+        "in_operation_date": "2010-09-02",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "Hlavn\u00ed m\u011bsto Praha",
+          "district_id": 47,
+          "district_seo_name": "hlavni-mesto-praha",
+          "entity_id": 47,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Hlavn\u00ed m\u011bsto Praha",
+          "region_id": 10,
+          "region_seo_name": "hlavni-mesto-praha",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "model_cb": {
+          "name": "Fabia",
+          "seo_name": "fabia",
+          "value": 707
+        },
+        "name": "\u0160koda Fabia, 1.2 TSI, Serv.kniha, Klima",
+        "old_id": null,
+        "premise": {
+          "external_id": 2,
+          "id": 12973177,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_E_G/OYsHuA.png",
+          "name": "AAA AUTO"
+        },
+        "price": 146000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:30:05",
+        "source": "import_source",
+        "tachometer": 102833,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "Style 1.5 TSI 110 kW",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-08-11T14:23:35",
+        "custom_id": "200341631",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:23:38",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Automatick\u00e1",
+          "seo_name": "automaticka",
+          "value": 3
+        },
+        "home_delivery": false,
+        "id": 195238978,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/ZfgjLz.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QM_E7/J2CBt9A.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QK_FE/jjn2nT.jpeg"
+          }
+        ],
+        "images_total_count": 3,
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "Nymburk",
+          "district_id": 55,
+          "district_seo_name": "nymburk",
+          "entity_id": 55,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "St\u0159edo\u010desk\u00fd kraj",
+          "region_id": 11,
+          "region_seo_name": "stredocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2022-01-01",
+        "model_cb": {
+          "name": "Scala",
+          "seo_name": "scala",
+          "value": 8155
+        },
+        "name": "\u0160koda Scala, Style 1.5 TSI 110 kW",
+        "old_id": null,
+        "premise": {
+          "external_id": 189,
+          "id": 429451,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_QI_v/xicLd.png",
+          "name": "Louda Auto+ ( 8 pobo\u010dek v 6 kraj\u00edch )"
+        },
+        "price": 539000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:23:35",
+        "source": "import_source",
+        "tachometer": 3330,
+        "topped": false,
+        "user": null
+      },
+      {
+        "additional_model_name": "2,0 TDi  DSG RS LED Assist 360",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-08-11T14:23:09",
+        "custom_id": "E826",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:23:47",
+        "fuel_cb": {
+          "name": "Nafta",
+          "seo_name": "nafta",
+          "value": 2
+        },
+        "gearbox_cb": {
+          "name": "Automatick\u00e1",
+          "seo_name": "automaticka",
+          "value": 3
+        },
+        "home_delivery": false,
+        "id": 195238957,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QQ_E0/LOrsyu.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/70rBt0g.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QI_EE/DFKBt8b.jpeg"
+          }
+        ],
+        "images_total_count": 49,
+        "in_operation_date": "2020-07-02",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "Uhersk\u00e9 Hradi\u0161t\u011b",
+          "district_id": 41,
+          "district_seo_name": "uherske-hradiste",
+          "entity_id": 41,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Zl\u00ednsk\u00fd kraj",
+          "region_id": 9,
+          "region_seo_name": "zlinsky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2020-01-01",
+        "model_cb": {
+          "name": "Kodiaq",
+          "seo_name": "kodiaq",
+          "value": 7595
+        },
+        "name": "\u0160koda Kodiaq, 2,0 TDi  DSG RS LED Assist 360",
+        "old_id": null,
+        "premise": {
+          "external_id": 9900,
+          "id": 13283576,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_QR_s/SKiLV.png",
+          "name": "AutoAWS"
+        },
+        "price": 869000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:23:09",
+        "source": "import_source",
+        "tachometer": 137584,
+        "topped": false,
+        "user": null
+      },
+      {
+        "additional_model_name": "1.5 TSI 110kW Ambition \u010cR DPH",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-01-19T16:52:56",
+        "custom_id": "e4a259b6",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:40",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 185244188,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_gV_s/3ZdmP8.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QK_E3/jztrVD.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QN_Et/h3xWtW.jpeg"
+          }
+        ],
+        "images_total_count": 28,
+        "in_operation_date": "2020-08-19",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "Brno-m\u011bsto",
+          "district_id": 72,
+          "district_seo_name": "brno-mesto",
+          "entity_id": 72,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jihomoravsk\u00fd kraj",
+          "region_id": 14,
+          "region_seo_name": "jihomoravsky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2020-01-01",
+        "model_cb": {
+          "name": "Octavia",
+          "seo_name": "octavia",
+          "value": 705
+        },
+        "name": "\u0160koda Octavia, 1.5 TSI 110kW Ambition \u010cR DPH",
+        "old_id": null,
+        "premise": {
+          "external_id": 724,
+          "id": 442231,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_G_B/wgADik.png",
+          "name": "AUTO COM Brno s.r.o."
+        },
+        "price": 465000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:40",
+        "source": "import_source",
+        "tachometer": 37000,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "2,0 TDI RS Combi",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-06-28T18:42:07",
+        "custom_id": "Z230281",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Nafta",
+          "seo_name": "nafta",
+          "value": 2
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 193309578,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QM_E7/48OBOXI.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/NUeBOWt.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QK_FE/4CHXGC.jpeg"
+          }
+        ],
+        "images_total_count": 37,
+        "in_operation_date": "2014-01-14",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2014-01-01",
+        "model_cb": {
+          "name": "Octavia",
+          "seo_name": "octavia",
+          "value": 705
+        },
+        "name": "\u0160koda Octavia, 2,0 TDI RS Combi",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 289000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 214700,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "1,2 TSI 77 kW Edition 1.majite",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-06-26T12:07:58",
+        "custom_id": "V230375",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 193193028,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QN_E2/TcWX2B.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/l35iiG.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QM_E7/7yuBtVp.jpeg"
+          }
+        ],
+        "images_total_count": 34,
+        "in_operation_date": "2011-07-01",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2011-01-01",
+        "model_cb": {
+          "name": "Yeti",
+          "seo_name": "yeti",
+          "value": 1703
+        },
+        "name": "\u0160koda Yeti, 1,2 TSI 77 kW Edition 1.majite",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 164000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 162100,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "2,0 TDI 110kW DSG Style",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-06-22T18:09:34",
+        "custom_id": "Z230266",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Nafta",
+          "seo_name": "nafta",
+          "value": 2
+        },
+        "gearbox_cb": {
+          "name": "Automatick\u00e1",
+          "seo_name": "automaticka",
+          "value": 3
+        },
+        "home_delivery": false,
+        "id": 193049502,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QL_E7/K4weNR.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/Pc1BsLd.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QO_E7/4U1BUf5.jpeg"
+          }
+        ],
+        "images_total_count": 35,
+        "in_operation_date": "2019-07-22",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2019-01-01",
+        "model_cb": {
+          "name": "Octavia",
+          "seo_name": "octavia",
+          "value": 705
+        },
+        "name": "\u0160koda Octavia, 2,0 TDI 110kW DSG Style",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 339999,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 185800,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "2,0 TDI 110 kW Style DSG",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-06-20T09:14:57",
+        "custom_id": "V230307",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Nafta",
+          "seo_name": "nafta",
+          "value": 2
+        },
+        "gearbox_cb": {
+          "name": "Automatick\u00e1",
+          "seo_name": "automaticka",
+          "value": 3
+        },
+        "home_delivery": false,
+        "id": 192936636,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QM_E7/DFXBQdd.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QL_E7/Gb1CXu.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QO_E7/bkW2lS.jpeg"
+          }
+        ],
+        "images_total_count": 43,
+        "in_operation_date": "2018-11-01",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2018-01-01",
+        "model_cb": {
+          "name": "Kodiaq",
+          "seo_name": "kodiaq",
+          "value": 7595
+        },
+        "name": "\u0160koda Kodiaq, 2,0 TDI 110 kW Style DSG",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 539999,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 176700,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "1,2 TSI 81kW Rezervov\u00e1no!",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-06-15T14:37:29",
+        "custom_id": "V230382",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 192732292,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QO_E7/qk7ql9.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QN_Ey/QWgRHS.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QQ_E0/yKPDR3.jpeg"
+          }
+        ],
+        "images_total_count": 11,
+        "in_operation_date": "2016-02-03",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2016-01-01",
+        "model_cb": {
+          "name": "Fabia",
+          "seo_name": "fabia",
+          "value": 707
+        },
+        "name": "\u0160koda Fabia, 1,2 TSI 81kW Rezervov\u00e1no!",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 299000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 52300,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "1,6 TDI 85 kW Style, TOP",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-06-13T10:58:38",
+        "custom_id": "V230367",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Nafta",
+          "seo_name": "nafta",
+          "value": 2
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 192629150,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QL_E7/h3UJWq.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QQ_E0/AvEWP7.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QR_FE/qjFBXYh.jpeg"
+          }
+        ],
+        "images_total_count": 35,
+        "in_operation_date": "2018-08-02",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2018-01-01",
+        "model_cb": {
+          "name": "Karoq",
+          "seo_name": "karoq",
+          "value": 7665
+        },
+        "name": "\u0160koda Karoq, 1,6 TDI 85 kW Style, TOP",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 424000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 144000,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "2,0 TDI 110 kW Style DSG",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-06-12T11:52:30",
+        "custom_id": "V230316",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Nafta",
+          "seo_name": "nafta",
+          "value": 2
+        },
+        "gearbox_cb": {
+          "name": "Automatick\u00e1",
+          "seo_name": "automaticka",
+          "value": 3
+        },
+        "home_delivery": false,
+        "id": 192584503,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QO_E7/gNEyRV.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/AGgBMIX.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/uyRBWO.jpeg"
+          }
+        ],
+        "images_total_count": 36,
+        "in_operation_date": "2020-01-01",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2020-01-01",
+        "model_cb": {
+          "name": "Kodiaq",
+          "seo_name": "kodiaq",
+          "value": 7595
+        },
+        "name": "\u0160koda Kodiaq, 2,0 TDI 110 kW Style DSG",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 679000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 87100,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "1,0 TSI 85 kW LED Z\u00c1NOVN\u00cd V\u016eZ!",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-06-06T15:58:00",
+        "custom_id": "V230268",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Benz\u00edn",
+          "seo_name": "benzin",
+          "value": 1
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 192311548,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/P0wEc5.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QQ_E0/81KOCl.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QI_EE/PTCBPNK.jpeg"
+          }
+        ],
+        "images_total_count": 34,
+        "in_operation_date": "2021-07-29",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2021-01-01",
+        "model_cb": {
+          "name": "Karoq",
+          "seo_name": "karoq",
+          "value": 7665
+        },
+        "name": "\u0160koda Karoq, 1,0 TSI 85 kW LED Z\u00c1NOVN\u00cd V\u016eZ!",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 528000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 17600,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "2,0 TDI CR DSG 125kW Elegance",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-06-05T16:53:38",
+        "custom_id": "V230333",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Nafta",
+          "seo_name": "nafta",
+          "value": 2
+        },
+        "gearbox_cb": {
+          "name": "Automatick\u00e1",
+          "seo_name": "automaticka",
+          "value": 3
+        },
+        "home_delivery": false,
+        "id": 192261460,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QL_E7/INrCX7.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QM_E7/EL0BQdw.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QJ_Eg/6osBQcA.jpeg"
+          }
+        ],
+        "images_total_count": 44,
+        "in_operation_date": "2011-04-27",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2011-01-01",
+        "model_cb": {
+          "name": "Superb",
+          "seo_name": "superb",
+          "value": 708
+        },
+        "name": "\u0160koda Superb, 2,0 TDI CR DSG 125kW Elegance",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 179000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 274500,
+        "topped": true,
+        "user": null
+      },
+      {
+        "additional_model_name": "2,0 TDI RS Combi, CZ",
+        "category": {
+          "id": 838,
+          "name": "Osobn\u00ed",
+          "seo_name": "osobni"
+        },
+        "create_date": "2023-05-30T15:52:25",
+        "custom_id": "V230319",
+        "deal_type": "sale",
+        "edit_date": "2023-08-11T14:21:32",
+        "fuel_cb": {
+          "name": "Nafta",
+          "seo_name": "nafta",
+          "value": 2
+        },
+        "gearbox_cb": {
+          "name": "Manu\u00e1ln\u00ed",
+          "seo_name": "manualni",
+          "value": 1
+        },
+        "home_delivery": false,
+        "id": 191976571,
+        "images": [
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QP_Eh/9fMM6i.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QQ_E0/55uWig.jpeg"
+          },
+          {
+            "url": "//d19-a.sdn.cz/d_19/c_img_QN_E2/jNvCVL.jpeg"
+          }
+        ],
+        "images_total_count": 38,
+        "in_operation_date": "2018-03-28",
+        "locality": {
+          "address": "",
+          "address_id": 0,
+          "citypart": "",
+          "country_id": 112,
+          "district": "\u010cesk\u00e9 Bud\u011bjovice",
+          "district_id": 1,
+          "district_seo_name": "ceske-budejovice",
+          "entity_id": 1,
+          "entity_type": "district",
+          "housenumber": "",
+          "municipality": "",
+          "municipality_id": 0,
+          "municipality_seo_name": "",
+          "quarter": "",
+          "quarter_id": 0,
+          "region": "Jiho\u010desk\u00fd kraj",
+          "region_id": 1,
+          "region_seo_name": "jihocesky-kraj",
+          "source": "regionserver",
+          "street": "",
+          "street_id": 0,
+          "streetnumber": "",
+          "ward": "",
+          "ward_id": 0,
+          "zip": ""
+        },
+        "manufacturer_cb": {
+          "name": "\u0160koda",
+          "seo_name": "skoda",
+          "value": 93
+        },
+        "manufacturing_date": "2018-01-01",
+        "model_cb": {
+          "name": "Octavia",
+          "seo_name": "octavia",
+          "value": 705
+        },
+        "name": "\u0160koda Octavia, 2,0 TDI RS Combi, CZ",
+        "old_id": null,
+        "premise": {
+          "external_id": 8714,
+          "id": 13182525,
+          "logo": "https://d48-a.sdn.cz/d_48/c_img_H_H/9f1BVCe.png",
+          "name": "AUTOCENTRUM DAN A SYN"
+        },
+        "price": 448000,
+        "price_by_agreement": false,
+        "sorting_date": "2023-08-11T14:21:32",
+        "source": "import_source",
+        "tachometer": 149200,
+        "topped": true,
+        "user": null
+      }
+    ],
+    "status_code": 200,
+    "status_message": "OK",
+    "warnings": {}
+  }

@@ -1,0 +1,17 @@
+manufacturers: 
+  Škoda:
+    models:
+      Fabia:
+        Benzín:
+          lowest_kw: 37
+          highest_kw: 110
+        Nafta:
+          lowest_kw: 47
+          highest_kw: 96
+      Octavia:
+        Benzín:
+          lowest_kw: 55
+          highest_kw: 180
+        Nafta:
+          lowest_kw: 66
+          highest_kw: 147
