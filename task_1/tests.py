@@ -2,7 +2,6 @@ import pytest
 
 from .main import find_max_sum, find_max_sum_rec
 
-
 TEST_DATA = [
     ([155, 55, 2, 96, 67, 203, 3], 454),
     ([155, 54, 3, 10], 165),
