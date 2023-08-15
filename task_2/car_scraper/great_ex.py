@@ -9,9 +9,40 @@ def process_file(file_path: str):
     context = gx.get_context()
     validator = context.sources.pandas_default.read_json(file_path, lines=True)
 
-    # Create basic expectations
-    validator.expect_column_values_to_not_be_null("create_date")
-    validator.expect_column_values_to_be_between("capacity", auto=True)
+    # These data must be filled
+    NOT_NULL_COLUMNS = (
+        "id",
+        "condition_name",
+        "country_of_origin_name",
+        "create_date",
+        "edit_date",
+        "gearbox_name",
+        "manufacturer_name",
+        "car_model_name",
+        "name",
+    )
+    for x in NOT_NULL_COLUMNS:
+        validator.expect_column_values_to_not_be_null(x)
+
+    # Check for numbers
+    validator.expect_column_values_to_be_between("capacity", 1, 10)
+    validator.expect_column_values_to_be_between("doors", 2, 5)
+    validator.expect_column_values_to_be_between("engine_power", 20, 1000)
+    validator.expect_column_values_to_be_between("engine_volume", 500, 10_000)
+    validator.expect_column_values_to_be_between("price", 1_000, 5_000_000)
+    validator.expect_column_values_to_be_between("tachometer", 0, 1_000_000)
+
+    # Check for enums
+    FUEL_NAMES = [
+        "Benzín",
+        "Nafta",
+        "CNG + benzín",
+        "LPG + benzín",
+        "Elektro",
+        "Hybridní",
+        "Ethanol",
+    ]
+    validator.expect_column_values_to_be_in_set("fuel_name", FUEL_NAMES)
 
     # Create a custom expectation about engine power
     motors_config = load_motors()
@@ -22,7 +53,6 @@ def process_file(file_path: str):
 
     # Save expectations
     validator.save_expectation_suite()
-
     # Validate data
     checkpoint = context.add_or_update_checkpoint(
         name="my_quickstart_checkpoint",
