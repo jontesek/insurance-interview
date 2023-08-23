@@ -2,7 +2,7 @@
 
 ## Usage
 To run program, simply do `python main.py`.
-You can edit input data in the script directly (line 31).
+You can edit input data in the script directly (line 34).
 
 ## Tests
 You can run tests by `pytest tests.py`. 
